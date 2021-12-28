@@ -1,8 +1,8 @@
 """
 使用多剪贴板自动回复消息
 
-Usage: 打开Terminal, 进入该路径下，输入python main.py 命令行参数。
-如： python main.py agree
+Usage: 打开Terminal, 进入该路径下，输入python alient_invasion.py 命令行参数。
+如： python alient_invasion.py agree
 然后再选择ctrl + v粘贴试试。
 """
 
@@ -14,7 +14,7 @@ TEXT = {'agree': """Yes, i agree. That sounds fine to me.""",
 # 处理命令行参数
 import sys, pyperclip
 if len(sys.argv) < 2:
-    print("Usage: python main.py [keyphrase] - copy phrase text")
+    print("Usage: python alient_invasion.py [keyphrase] - copy phrase text")
     sys.exit()
 
 keyphrase = sys.argv[1]
