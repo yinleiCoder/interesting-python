@@ -5,7 +5,9 @@ __pycache__/
 .idea
 # C extensions
 *.so
-
+china_unicom_ocr_text_bill/inference/ch_ppocr_mobile_v2.0_cls_infer/
+china_unicom_ocr_text_bill/inference/ch_ppocr_server_v2.0_det_infer/
+china_unicom_ocr_text_bill/inference/ch_ppocr_server_v2.0_rec_infer/
 # Distribution / packaging
 .Python
 build/
