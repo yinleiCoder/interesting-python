@@ -6,7 +6,7 @@ OpenCV图像基本变换: 图像缩放
     fx: x轴的缩放因子
     fy: y轴的缩放因子
     interpolation: 插值算法
-        INTER_NEAREST: 邻近插值，速度块，效果差
+        INTER_NEAREST: 邻近插值，速度快，效果差
         INTER_LINEAR: 双线性插值，原图中的4个点
         INTER_CUBIC: 三次插值，原图中的16个点
         INTER_AREA: 效果最好

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2022-02-13T13:38:59Z</date>
+	<key>Application Version</key><string>12.12.2.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/10991/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>EADF53DD581BF591</string>
+	<key>Tracks</key>
+	<dict>
+		<key>192</key>
+		<dict>
+			<key>Track ID</key><integer>192</integer>
+			<key>Name</key><string>我好像在哪见过你</string>
+			<key>Artist</key><string>薛之谦</string>
+			<key>Album Artist</key><string>薛之谦</string>
+			<key>Album</key><string>初学者</string>
+			<key>Genre</key><string>Mandopop</string>
+			<key>Kind</key><string>Apple Music AAC 音频文件</string>
+			<key>Size</key><integer>9886603</integer>
+			<key>Total Time</key><integer>279146</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2022-02-13T12:15:27Z</date>
+			<key>Date Added</key><date>2022-02-13T12:15:27Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3727629603</integer>
+			<key>Play Date UTC</key><date>2022-02-13T12:40:03Z</date>
+			<key>Release Date</key><date>2016-06-23T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>chuxuezhe</string>
+			<key>Sort Artist</key><string>Zhi Qian Xue</string>
+			<key>Sort Name</key><string>wohaoxiangzainajianguoni</string>
+			<key>Persistent ID</key><string>F99503934676E185</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>312</key>
+		<dict>
+			<key>Track ID</key><integer>312</integer>
+			<key>Name</key><string>留香</string>
+			<key>Artist</key><string>许嵩</string>
+			<key>Album Artist</key><string>许嵩</string>
+			<key>Composer</key><string>Vae Xu</string>
+			<key>Album</key><string>留香 - Single</string>
+			<key>Genre</key><string>Mandopop</string>
+			<key>Kind</key><string>Apple Music AAC 音频文件</string>
+			<key>Size</key><integer>8842586</integer>
+			<key>Total Time</key><integer>247901</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2022</integer>
+			<key>Date Modified</key><date>2022-02-13T13:33:13Z</date>
+			<key>Date Added</key><date>2022-02-13T13:33:13Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2022-01-26T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>留香 - Single</string>
+			<key>Sort Artist</key><string>xu song</string>
+			<key>Sort Name</key><string>留香</string>
+			<key>Persistent ID</key><string>148DA8197C7B0946</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>399</key>
+		<dict>
+			<key>Track ID</key><integer>399</integer>
+			<key>Name</key><string>乌鸦</string>
+			<key>Artist</key><string>许嵩</string>
+			<key>Album Artist</key><string>许嵩</string>
+			<key>Composer</key><string>Vae Xu</string>
+			<key>Album</key><string>呼吸之野</string>
+			<key>Genre</key><string>Mandopop</string>
+			<key>Kind</key><string>Apple Music AAC 音频文件</string>
+			<key>Size</key><integer>11453210</integer>
+			<key>Total Time</key><integer>329131</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2021</integer>
+			<key>Date Modified</key><date>2022-02-13T13:33:33Z</date>
+			<key>Date Added</key><date>2022-02-13T13:33:33Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2021-05-07T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>呼吸之野</string>
+			<key>Sort Artist</key><string>xu song</string>
+			<key>Sort Name</key><string>乌鸦</string>
+			<key>Persistent ID</key><string>84C737F454FABF91</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>837</key>
+		<dict>
+			<key>Track ID</key><integer>837</integer>
+			<key>Name</key><string>A Short Story About Love</string>
+			<key>Artist</key><string>陈小莉</string>
+			<key>Album Artist</key><string>陈小莉</string>
+			<key>Composer</key><string>Rosey Chan</string>
+			<key>Album</key><string>A Short Story About Love - Single</string>
+			<key>Genre</key><string>Classical</string>
+			<key>Kind</key><string>Apple Music AAC 音频文件</string>
+			<key>Size</key><integer>6654529</integer>
+			<key>Total Time</key><integer>181042</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2022</integer>
+			<key>Date Modified</key><date>2022-02-13T13:35:46Z</date>
+			<key>Date Added</key><date>2022-02-13T13:35:46Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2022-02-11T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>A Short Story About Love - Single</string>
+			<key>Sort Artist</key><string>陈小莉</string>
+			<key>Sort Name</key><string>A Short Story About Love</string>
+			<key>Persistent ID</key><string>B0123423712E6684</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>2328</key>
+		<dict>
+			<key>Track ID</key><integer>2328</integer>
+			<key>Name</key><string>I AM WOMAN</string>
+			<key>Artist</key><string>Emmy Meli</string>
+			<key>Album Artist</key><string>Emmy Meli</string>
+			<key>Composer</key><string>Emily Catherine Lomeli</string>
+			<key>Album</key><string>I AM WOMAN - Single</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Apple Music AAC 音频文件</string>
+			<key>Size</key><integer>8295842</integer>
+			<key>Total Time</key><integer>232813</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2021</integer>
+			<key>Date Modified</key><date>2022-02-13T13:38:51Z</date>
+			<key>Date Added</key><date>2022-02-13T13:38:51Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2021-11-18T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>I AM WOMAN - Single</string>
+			<key>Sort Artist</key><string>Emmy Meli</string>
+			<key>Sort Name</key><string>I AM WOMAN</string>
+			<key>Persistent ID</key><string>D1C89D5ED21A53D4</string>
+			<key>Explicit</key><true/>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>资料库</string>
+			<key>Description</key><string></string>
+			<key>Master</key><true/>
+			<key>Playlist ID</key><integer>71</integer>
+			<key>Playlist Persistent ID</key><string>091C88B8DA588A2E</string>
+			<key>Visible</key><false/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>192</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>312</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>399</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>837</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2328</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>已下载</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>108</integer>
+			<key>Playlist Persistent ID</key><string>394054F2F10A7263</string>
+			<key>Distinguished Kind</key><integer>65</integer>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>音乐</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>81</integer>
+			<key>Playlist Persistent ID</key><string>4F8D388E3A46301A</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>192</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>312</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>399</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>837</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2328</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>已下载</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>111</integer>
+			<key>Playlist Persistent ID</key><string>AD9A197BD43089E2</string>
+			<key>Distinguished Kind</key><integer>66</integer>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>影片</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>84</integer>
+			<key>Playlist Persistent ID</key><string>E6A91DEB34C5A3D0</string>
+			<key>Distinguished Kind</key><integer>2</integer>
+			<key>Movies</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>电视节目</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>87</integer>
+			<key>Playlist Persistent ID</key><string>45F2954C9522CD6E</string>
+			<key>Distinguished Kind</key><integer>3</integer>
+			<key>TV Shows</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>已下载</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>114</integer>
+			<key>Playlist Persistent ID</key><string>D7522D3ED2CDA91C</string>
+			<key>Distinguished Kind</key><integer>67</integer>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>播客</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>78</integer>
+			<key>Playlist Persistent ID</key><string>3A3DA68F7FE4C52A</string>
+			<key>Distinguished Kind</key><integer>10</integer>
+			<key>Podcasts</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>有声书</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>90</integer>
+			<key>Playlist Persistent ID</key><string>17D8C76FC2CD7162</string>
+			<key>Distinguished Kind</key><integer>5</integer>
+			<key>Audiobooks</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>yinlei</string>
+			<key>Description</key><string>存放自己晚上喜欢听的一些歌曲</string>
+			<key>Playlist ID</key><integer>197</integer>
+			<key>Playlist Persistent ID</key><string>8B493B9C3A5388A0</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>192</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

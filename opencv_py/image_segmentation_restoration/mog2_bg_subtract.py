@@ -7,7 +7,7 @@ import cv2
         帧与帧之间关系密切GOP (关于这部分涉及音视频知识，可以看我的微信公众号 尹哥)
         在GOP中，背景几乎是不变的
 
-方法2：MOG2去背景
+方法1：MOG2去背景
     同MOG类似，不过对亮度产生的阴影有更好的识别
     createBackgroundSubtractorMOG2(
         history, // 500毫秒

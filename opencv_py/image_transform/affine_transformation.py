@@ -22,7 +22,7 @@ h, w, ch = brother.shape
 # M = cv2.getRotationMatrix2D((w/2, h/2), 15, 0.5)
 src = np.float32([[400, 300], [800, 300], [400, 1000]])
 dst = np.float32([[200, 400], [600, 500], [150, 1100]])
-M = cv2.getAffineTransform(src, dst)
+M = cv2.getAffineTransform(src, dst)# 通过3个点确定位置
 new = cv2.warpAffine(brother, M, (w, h))
 
 cv2.imshow('brother', brother)

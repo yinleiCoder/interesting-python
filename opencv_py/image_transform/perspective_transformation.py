@@ -11,7 +11,7 @@ import numpy as np
 img = cv2.imread(r'E:\PycharmProjects\funnyPython\opencv_py\data\imgs\prespective_test.jpg')
 print(img.shape)
 
-# 图片的4个顶点需要自己去猜
+# 图片的4个顶点(角)需要自己去猜
 src = np.float32([[100, 1100], [3024, 1100], [0, 4000], [2500, 3900]])
 dst = np.float32([[0, 0], [3024, 0], [0, 4032], [4032, 3024]])
 M = cv2.getPerspectiveTransform(src, dst)

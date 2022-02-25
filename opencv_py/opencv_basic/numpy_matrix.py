@@ -45,7 +45,7 @@ import numpy as np
 # ROI是OpenCV中特别重要的一个概念，比如在图像中添加水印，对这图像中的某一块进行修改等都需要使用ROI
 #[y1:y2, x1:x2] [:, :]
 img = np.zeros((480, 640, 3), np.uint8)
-roi = img[100: 400, 100:600]
+roi = img[100:400, 100:600]
 roi[:, :] = [0, 0, 255]
 roi[10:200, 10:200] = [0, 255, 0]
 cv2.imshow('img', roi)

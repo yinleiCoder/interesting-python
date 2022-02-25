@@ -19,7 +19,7 @@ def backupToZip(folder):
     # 创建新zip文件
     print(f"Creating {zipFileName}...")
     backupZip = zipfile.ZipFile(zipFileName, 'w')
-    # 遍历目录数并添加到zip文件
+    # 遍历目录树并添加到zip文件
     for foldername, subfolders, filenames in os.walk(folder):
         print(f"Adding files in {foldername}...")
         backupZip.write(foldername)

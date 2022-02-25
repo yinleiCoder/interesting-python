@@ -42,7 +42,7 @@ for i , (m, n) in enumerate(matchs):
     if m.distance < 0.7 * n.distance:
         good.append(m)
 
-if len(good) > 4:# 必须至少匹配到4个顶点
+if len(good) >= 4:# 必须至少匹配到4个顶点
     # 查找单应性矩阵
     srcPts = np.float32([kp1[m.queryIdx].pt for m in good]).reshape(-1, 1, 2)
     dstPts = np.float32([kp2[m.trainIdx].pt for m in good]).reshape(-1, 1, 2)

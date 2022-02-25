@@ -64,7 +64,7 @@ class ChinaUnicomBillPaddleOCR(PaddleOCR):
             new_width, new_height = section.page_height, section.page_width
             section.orientation = WD_ORIENTATION.LANDSCAPE
             section.page_width = new_width
-            section.page_height =new_height
+            section.page_height = new_height
             document.add_picture(f"{img_path}", width=Cm(21))
             document.paragraphs[-1].alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
             document.save(f'ocr_docx_result\\{self.ocr_data[index]}.docx')
@@ -72,7 +72,7 @@ class ChinaUnicomBillPaddleOCR(PaddleOCR):
     def docxToPDF(self):
         for index, img_path in enumerate(self.all_imgs_path):
             # 创建word程序对象
-            # word = gencache.EnsureDispatch("Word.Application")
+            # word = gencache.EnsureDispatch("Word.Application") # 需要先运行这句，才能初始化com组件，constants才不能为空
             word = client.DispatchEx("Word.Application")
             # 读取word文件
             doc = word.Documents.Open(f"E:\\PycharmProjects\\funnyPython\\china_unicom_ocr_text_bill\\ocr_docx_result\\{self.ocr_data[index]}.docx", ReadOnly=1)

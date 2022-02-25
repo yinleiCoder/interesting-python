@@ -28,11 +28,11 @@ gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = facer.detectMultiScale(gray_img, 1.1, 3)
 i = 0
 j = 0
-for (x,y,w,h) in faces:
+for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 2)
     roi_img = img[y:y+h, x:x+w]
     eyes = eye.detectMultiScale(roi_img, 1.1, 3)
-    for (x,y,w,h) in eyes:
+    for (x, y, w, h) in eyes:
         cv2.rectangle(roi_img, (x, y), (x+w, y+h), (0, 255, 0), 2)
         roi_eye=roi_img[y:y+h, x:x+w]
         eyename = 'eye' + str(j)

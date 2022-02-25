@@ -26,7 +26,7 @@ def get_homo(img1, img2):
     for m1, m2 in matches:
         if m1.distance < 0.8 * m2.distance:
             verify_matches.append(m1)
-    if len(verify_matches) > 4:
+    if len(verify_matches) >= 4:
         img1_pts = []
         img2_pts = []
         for m in verify_matches:

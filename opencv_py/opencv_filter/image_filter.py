@@ -35,6 +35,7 @@ img = cv2.imread(r'E:\PycharmProjects\funnyPython\opencv_py\data\imgs\yinlei.jpg
 K = ——| 1 1 1 1 1 |
     25| 1 1 1 1 1 |
       | 1 1 1 1 1 |
+      | 1 1 1 1 1 |
 """
 kernel = np.ones((5, 5), np.float32) / 25
 dst = cv2.filter2D(img, -1, kernel=kernel,)

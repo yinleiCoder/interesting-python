@@ -12,6 +12,7 @@ Computer Graphics                       Computer Vision
 (Modeling, Simulation)                (Image Processing.Not Comp. Photography)
 
 OpenvCV则与FFmpeg是相互调用的关系
+
 3. OpenCV的未来
 实时通信。
 
@@ -30,4 +31,5 @@ OpenCV环境搭建：
     Ubuntu: apt install python3.9
             pip install numpy matplotlib opencv_python(或者用apt install另一个源)
 2. 源码安装方式
+    https://mp.weixin.qq.com/s?__biz=MzU2NzkxMzg2NQ==&mid=2247489170&idx=1&sn=74d3e37e12c5cd9e9ad4d3b02b40b07b&chksm=fc94aa74cbe32362fc0e668ec31070d922b95e1230695746e6dff7c7a1904649e2bebb4c719e&token=2000906227&lang=zh_CN#rd
 """
