@@ -23,6 +23,13 @@
     - thread_process_pool: 多线程、多进程、线程池(重要)【pyhton中的GIL、多线程编程、线程间通信共享变量和Queue、线程同步Lock RLock condition Semaphore、ThreadPoolExecutor线程池、multiprocessing多进程编程、进程间通信Queue Pipe Manager】
     - python_coroutine: 协程、异步io(重要)【并行、并发、同步、异步、阻塞、非阻塞、C10K问题、io多路复用(select poll epoll)、epoll+回调+事件循环方式、回调之痛、C10M问题、协程、生成器的send和yield from、生成器如何变协程、async和await原生协程】
     - asyncio_coroutine: asyncio并发(重要)【事件循环、task取消和子协程调用原理、call_soon call_at call_later call_soon_threadsafe、ThreadPoolExecutor+asycio完成阻塞IO请求、asyncio模拟http请求、future和task、asyncio同步和通信】
+- algorithm_data_structure: 数据结构和算法
+    - 算法、数据结构、时间复杂度、空间复杂度
+    - 最基本的数据结构：数组、链表、栈、队列、哈希表
+    - 树、二叉树
+    - 排序算法：冒泡排序、快速排序、堆排序、计数排序、桶排序
+    - 职场上的算法面试题及解题思路
+    - 职场上的算法应用
 - math_machine_learning_basic: 高等数学
 - linear_algebra_learning_basic: 线性代数
 - math_python: 用Python学数学
@@ -38,13 +45,6 @@
     - 用递归制作分形
     - 元胞自动机
     - 用遗传算法解决问题
-- algorithm_data_structure: 数据结构和算法
-    - 算法、数据结构、时间复杂度、空间复杂度
-    - 最基本的数据结构：数组、链表、栈、队列、哈希表
-    - 树、二叉树
-    - 排序算法：冒泡排序、快速排序、堆排序、计数排序、桶排序
-    - 职场上的算法面试题及解题思路
-    - 职场上的算法应用
 - automate_the_boring_stuff: 让繁琐工作自动化
     - pyperclip_reply_msg: 使用多剪贴板自动回复消息(pyperclip)
     - bullet_point_adder: 在Wiki标记中添加无序列表(pyperclip)
@@ -53,7 +53,7 @@
     - read_write_file: 读写文件(pathlib与/)【生成随机的测试试卷、可更新的多重剪贴板(shelve)】
     - manage_file: 组织文件【将带有美国风格日期的文件重命名为欧洲风格日期、将一个文件夹备份到一个ZIP文件(zipfile、send2trash、shutil)】
     - logging_debug: 调试(logging)
-    - 从Web抓取信息
+    - web_browser: 从Web抓取信息(webbrowser、requests、bs4、selenium)【 webbrowser打开剪贴板中的内容对应的浏览器地图、浏览器分标签页打开所有搜索结果、下载所有XKCD漫画、selenium控制浏览器自动化】
     - 处理Excel电子表格
     - 处理Google电子表格
     - 处理PDF、Word
@@ -95,10 +95,13 @@
     - opencv_machine_learning_face: OpenCV机器学习【Haar(哈尔)级联方法人脸识别、深度学习DNN人脸识别方法、Haar+Tesseract识别车牌】
 - china_unicom_ocr_text_bill：中国联通增值税发票OCR
 - game_development: 游戏编程
-    - 外星人入侵
+    - alien_invasion: 外星人入侵(PyGame 2D)
 - python_web_server: 后端django
-- data_analysis_visualize: 数据分析与可视化
-    - 
+- data_analysis_visualize: 数据分析与可视化[用数据解析世界]
+    - data_analysis_tools: 走进数据分析【Excel表格分析、SQL、数据可视化利器Tableau】
+    - 建立互联网数据分析框架【初识互联网商业模式、解析数据指标体系、构建用户画像】
+    - 销售、市场与运营数据分析【用户引流与转化、分析消费行为、预售额与调整运营策略】
+    - 基于数据驱动迭代产品设计【促进用户活跃度、提升用户留存、使用AB实验迭代功能、撰写数据报告】
 - quantitative_trading: 量化交易[量化过去，预测未来(经济领域)]
     - trading_what: 量化简介【量化交易策略、常用的股票量化指标】
     - get_stock_data: 获取股票数据【股票是什么、使用JQData获取行情数据、Resample函数转化时间序列、使用JQData查询财务指标、】
@@ -179,6 +182,7 @@
 ## 推荐B站UP主
 `以下均是素未蒙面的各领域的启蒙老师或本人觉得十分干货的UP主，感谢各位前辈！`
 - [(公务员)刘文超](https://space.bilibili.com/300722822/video)
+- [(公务员)面试学长](https://space.bilibili.com/49642553/video)
 - [(英语)英语兔](https://space.bilibili.com/483162496/video)
 - [(计算机网络及Cisco Packet Tracer)湖科大教书匠](https://space.bilibili.com/360996402/channel/series)
 - [(C)谭玉刚](https://space.bilibili.com/41036636/channel/detail?cid=161507&ctype=0)
@@ -193,6 +197,7 @@
 - [(Go)橙卡](https://space.bilibili.com/10/video)
 - [(Go)幼麟实验室](https://space.bilibili.com/567195437/video)
 - [(Java)颜群](https://space.bilibili.com/326782142/video)
+- [(人工智能)跟李沐学A](https://space.bilibili.com/1567748478/?spm_id_from=333.999.0.0)
 - [(人工智能)同济子豪兄](https://space.bilibili.com/1900783/video)
 - [(前端)CodingStartup起码课](https://space.bilibili.com/451368848/)
 - [(前端)峰华前端工程师](https://space.bilibili.com/302954484/)
