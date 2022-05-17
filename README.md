@@ -33,7 +33,7 @@
 - math_machine_learning_basic: 高等数学
 - linear_algebra_learning_basic: 线性代数
 - math_python: 用Python学数学
-    - 用turtle模块绘制多边形
+    - turtle_demo: 用turtle模块绘制多边形
     - 用列表和循环把繁琐的算术变有趣
     - 用条件语句检测猜测
     - 用代数学变换和存储数
@@ -54,13 +54,12 @@
     - manage_file: 组织文件【将带有美国风格日期的文件重命名为欧洲风格日期、将一个文件夹备份到一个ZIP文件(zipfile、send2trash、shutil)】
     - logging_debug: 调试(logging)
     - web_browser: 从Web抓取信息(webbrowser、requests、bs4、selenium)【 webbrowser打开剪贴板中的内容对应的浏览器地图、浏览器分标签页打开所有搜索结果、下载所有XKCD漫画、selenium控制浏览器自动化】
-    - 处理Excel电子表格
-    - 处理Google电子表格
-    - 处理PDF、Word
-    - 处理CSV、JSON
-    - 保持时间、计划任务和启动程序
-    - 发送电子邮件和短信
-    - 操作图像
+    - handle_microsoft_excel: 处理Microsoft Excel电子表格(openpyxl)【更新电子表格】[关于办公office自动化可以参考我的博文](https://blog.csdn.net/qq_39969226/article/details/106376115?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164856626016782184629518%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=164856626016782184629518&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-106376115.nonecase&utm_term=%E8%87%AA%E5%8A%A8%E5%8C%96&spm=1018.2226.3001.4450)
+    - handle_microsoft_pdf_word: 处理PDF、Word(PyPDF2、python-docx)【从多个pdf中合并选择、从Word中创建PDF】
+    - handle_csv_json: 处理CSV、JSON(csv、json)
+    - handle_plan_time: 保持时间、计划任务和启动程序(time、datetime、subprocess)【超级秒表、刷题倒计时、并发下载所有XKCD漫画、python启动其他程序、python中的调度程序（windows的Task Scheduler、macOS的launched、Linux的cron调度程序允许安排应用程序在特定的时间启动）】
+    - send_email_message: 发送电子邮件和短信(smtp、imapclient、ezgmail控制Gmail)【Twilio发送短信】
+    - handle_img: 操作图像(pillow)
     - 用GUI自动化控制键盘和鼠标 
 - python_reptile: 爬虫
 - geek_funny: 极客项目[热身运动、模拟生命、图像之乐、走进三维、玩转硬件]
@@ -99,6 +98,7 @@
 - python_web_server: 后端django
 - data_analysis_visualize: 数据分析与可视化[用数据解析世界]
     - data_analysis_tools: 走进数据分析【Excel表格分析、SQL、数据可视化利器Tableau】
+    - data_visualize: python编程数据可视化【Matplotlib、Plotly】
     - 建立互联网数据分析框架【初识互联网商业模式、解析数据指标体系、构建用户画像】
     - 销售、市场与运营数据分析【用户引流与转化、分析消费行为、预售额与调整运营策略】
     - 基于数据驱动迭代产品设计【促进用户活跃度、提升用户留存、使用AB实验迭代功能、撰写数据报告】
@@ -170,6 +170,7 @@
 - [Python编程：从入门到实践(第二版)]()
 - [Python编程快速上手——让繁琐工作自动化(第二版)]()
 - [Python极客项目编程]()
+- [利用Python进行数据分析(第二版)]()
 - [用Python学数学]()
 - [小灰漫画算法(Python版) ]()
 - [ Python3网络爬虫开发实战 第二版 (崔庆才) ]()

@@ -206,9 +206,16 @@ class Boy(turtle.Turtle):
         self.left(135)
         self.right(45)
 
+class SayLove(turtle.Turtle):
+    def __init__(self):
+        super().__init__()
+        self.shape('turtle')
+        self.screen_width, self.screen_height = self.getscreen().screensize()
+
+
 if __name__ == '__main__':
     screen = turtle.Screen()
-    screen.title('比心小子')
+    screen.title('比心')
     screen.bgcolor('white')
     # screen.screensize(2000, 1500)
     boy = Boy()
