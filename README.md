@@ -60,7 +60,7 @@
     - handle_plan_time: 保持时间、计划任务和启动程序(time、datetime、subprocess)【超级秒表、刷题倒计时、并发下载所有XKCD漫画、python启动其他程序、python中的调度程序（windows的Task Scheduler、macOS的launched、Linux的cron调度程序允许安排应用程序在特定的时间启动）】
     - send_email_message: 发送电子邮件和短信(smtp、imapclient、ezgmail控制Gmail)【Twilio发送短信】
     - handle_img: 操作图像(pillow)
-    - 用GUI自动化控制键盘和鼠标 
+    - auto_gui_keyboard_mouse: 用GUI自动化控制键盘和鼠标(pyautogui)
 - python_reptile: 爬虫
 - geek_funny: 极客项目[热身运动、模拟生命、图像之乐、走进三维、玩转硬件]
     - itunes_playlist_parse: 解析iTunes播放列表
@@ -157,6 +157,10 @@
     - Tensorflow分布式【tf框架：分布式实现；分布式原理与策略(图像分类)】
     - Tensorflow模型保存与部署【tf框架：模型保存、导出tflite、部署;(图像分类)】
     - 机器翻译与tensor2tensor【tf框架：transformer实现、tensor2tensor使用;序列到序列模型、注意力机制、可缩放点积注意力、多头注意力(机器翻译)】
+- hacker_py_vmware_kali: python黑帽子*黑客与渗透测试编程  
+`需要准备的环境包括VMWare+Kali VM+Python3+Windows10or11.这里展示的是python的“黑暗面”:1.基于Github的C&C木马服务；2.探测自己是否处于沙箱环境中，并执行各种恶意软件创建操作；
+3.扩展web黑客工具Burp Suite的功能；4.通过原创的进程控制框架进行windows提权；5.使用攻击性的取证技巧，从虚拟机中提取密码哈希值及发掘漏洞；6.利用windows COM自动化接口；7.从网络中隐蔽的渗漏数据`
+    - 
 
 ## 后续学习方向建议
 `研究生及以后职业规划的学习方向，仅供参考`
@@ -175,41 +179,3 @@
 - [小灰漫画算法(Python版) ]()
 - [ Python3网络爬虫开发实战 第二版 (崔庆才) ]()
 - [ 西瓜书 ]()
-
-## Hacker
-`抛开用工具做脚本小子的想法，做黑客要有创新、研发的精神。抛开浮躁，静下心来从头开始学习基础，为将来的成长做好足够的准备！`
-- [Python白帽子]()
-
-## 推荐B站UP主
-`以下均是素未蒙面的各领域的启蒙老师或本人觉得十分干货的UP主，感谢各位前辈！`
-- [(公务员)刘文超](https://space.bilibili.com/300722822/video)
-- [(公务员)面试学长](https://space.bilibili.com/49642553/video)
-- [(英语)英语兔](https://space.bilibili.com/483162496/video)
-- [(计算机网络及Cisco Packet Tracer)湖科大教书匠](https://space.bilibili.com/360996402/channel/series)
-- [(C)谭玉刚](https://space.bilibili.com/41036636/channel/detail?cid=161507&ctype=0)
-- [(C++、算法)代码随想录](https://space.bilibili.com/525438321/video)
-- [(C++、C、Kotlin)bennyhuo不是算命的](https://space.bilibili.com/28615855/video)
-- [(C++、算法)花花酱的表世界](https://space.bilibili.com/9880352/video)
-- [(C++)Cherno](https://www.bilibili.com/video/BV1VJ411M7WR?spm_id_from=333.999.0.0)
-- [(OpenGL)Cherno](https://www.bilibili.com/video/BV1MJ411u7Bc?spm_id_from=333.999.0.0)
-- [(游戏引擎开发)Cherno](https://www.bilibili.com/video/BV1KE41117BD?spm_id_from=333.999.0.0)
-- [(C)编程日课DailyCoding](https://space.bilibili.com/494537125/)
-- [(全栈)free-coder](https://space.bilibili.com/31273057/video)
-- [(Go)橙卡](https://space.bilibili.com/10/video)
-- [(Go)幼麟实验室](https://space.bilibili.com/567195437/video)
-- [(Java)颜群](https://space.bilibili.com/326782142/video)
-- [(人工智能)跟李沐学A](https://space.bilibili.com/1567748478/?spm_id_from=333.999.0.0)
-- [(人工智能)同济子豪兄](https://space.bilibili.com/1900783/video)
-- [(前端)CodingStartup起码课](https://space.bilibili.com/451368848/)
-- [(前端)峰华前端工程师](https://space.bilibili.com/302954484/)
-- [(前端)向军大叔](https://space.bilibili.com/282190994/video)
-- [(Android)longway777](https://space.bilibili.com/137860026/video)
-- [(Android)扔物线](https://space.bilibili.com/27559447/video)
-- [(iOS)Xiaoyouxinqing](https://space.bilibili.com/502566212/video)
-- [(Flutter)ducafecat](https://space.bilibili.com/404904528/video)
-- [(硬件)硬件茶谈](https://space.bilibili.com/14871346/video)
-- [(嵌入式)太极创客](https://space.bilibili.com/103589285/video)
-- [(理财)DeltaF](https://space.bilibili.com/31721731/video)
-- [(吉他)吉他情报局](https://space.bilibili.com/103600069/video)
-
-### —— Google.End@YinLei.Coder ——

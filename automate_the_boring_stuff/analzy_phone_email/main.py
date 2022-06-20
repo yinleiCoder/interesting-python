@@ -19,7 +19,7 @@ import pyperclip, re
     3. 对2个正则表达式找到所有的匹配，而不只是第一次匹配
     4. 将匹配的字符串整理好格式放在一个字符串中，用于粘贴
     5. 如果文本没有找到匹配，则显示某种消息
-Usage: pyhon main.py
+Usage: python main.py
 
 应用扩展：
     1. 考虑寻找网站的URL，以http://或https://开始
