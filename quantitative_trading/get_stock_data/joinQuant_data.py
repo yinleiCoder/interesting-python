@@ -30,6 +30,8 @@ Resample函数转化时间序列：
 
 from jqdatasdk import *
 import pandas as pd
+
+
 account = '13795950539'
 password = 'Yl13795950539@'
 auth(account, password)
@@ -58,10 +60,10 @@ print(f"今日剩余可调用数据条数：{avaiable_query_count}")
 # df['weekday'] = df.index.weekday
 # print(df)
 # df_week = pd.DataFrame()
-# df_week['open'] = df['open'].resample('W').first()
-# df_week['close'] = df['close'].resample('W').last()
-# df_week['high'] = df['high'].resample('W').max()
-# df_week['low'] = df['low'].resample('W').min()
+# df_week['open'] = df['open'].resample('W').first()# 开盘价
+# df_week['close'] = df['close'].resample('W').last()# 收盘价
+# df_week['high'] = df['high'].resample('W').max()# 最高价
+# df_week['low'] = df['low'].resample('W').min()# 最低价
 # 2. 汇总统计：统计一下月成交量、成交额
 # df_week['volume(sum)'] = df['volume'].resample('W').sum()
 # df_week['money(sum)'] = df['money'].resample('W').sum()

@@ -160,14 +160,11 @@
 - hacker_py_vmware_kali: python黑帽子*黑客与渗透测试编程  
 `需要准备的环境包括VMWare+Kali VM+Python3+Windows10or11.这里展示的是python的“黑暗面”:1.基于Github的C&C木马服务；2.探测自己是否处于沙箱环境中，并执行各种恶意软件创建操作；
 3.扩展web黑客工具Burp Suite的功能；4.通过原创的进程控制框架进行windows提权；5.使用攻击性的取证技巧，从虚拟机中提取密码哈希值及发掘漏洞；6.利用windows COM自动化接口；7.从网络中隐蔽的渗漏数据`
-    - 
 
 ## 后续学习方向建议
 `研究生及以后职业规划的学习方向，仅供参考`
-- 微积分
-- 线性代数
 - [人工智能](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2NzkxMzg2NQ==&action=getalbum&album_id=1733540329405923330#wechat_redirect)
-- 树莓派
+- ESP8266+STM32
 
 ## 推荐相关书籍
 `以下图书均可在“京东图书”购买电子版阅读。`
@@ -179,3 +176,59 @@
 - [小灰漫画算法(Python版) ]()
 - [ Python3网络爬虫开发实战 第二版 (崔庆才) ]()
 - [ 西瓜书 ]()
+
+### Python黑客涉及的资料链接(补)
+- [微软开发者官网windows虚拟机](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)  
+- [kali虚拟机镜像](https://www.kali.org/downloads/)  
+- [kali官方文档](https://www.kali.org/docs/installation/)  
+- [pycharm](https://www.jetbrains.com/pycharm/download/)  
+- [WinIDE](https://wingware.com/downloads/)  
+- [VSCode](https://code.visualstudio.com/download/)  
+- [Python PEP8规范](https://www.python.org/dev/peps/pep-0008/)  
+第 2 章  
+链接 9：http://docs.python.org/3/library/socket.html  
+链接 10：http://www.paramiko.org/  
+链接 11：https://github.com/paramiko/paramiko/  
+第 3 章  
+链接 12：https://Wireshark.org/  
+链接 13：https://en.wikipedia.org/wiki/Ioctl  
+链接 14：https://docs.python.org/3/library/struct.html  
+第 4 章  
+链接 15：https://scapy.net/  
+链接 16：http://www.opencv.org/  
+链接 17：http://www.fideloper.com/facial-detection/  
+第 5 章  
+链接 18：https://wordpress.org/download/  
+链接 19：boodelyboo.com/  
+链接 20：https://github.com/OJ/gobuster/  
+链接 21：https://www.netsparker.com/blog/web-security/svn-digger-better-lists-for-forcedbrowsing/  
+链接 22：https://owasp.org/www-project-vulnerable-web-applications-directory/  
+链接 23：
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Software/
+cain-and-abel.txt  
+链接 24：boodelyboo.com/  
+第 6 章  
+链接 25：http://www.porstswigger.net/  
+链接 26：https://www.jython.org/download.html  
+链接 27：http://testphp.vulnweb.com/  
+链接 28：https://www.microsoft.com/en-us/bing/apis/bing-web-search-api/  
+链接 29：http://testphp.vulnweb.com/  
+链接 30：http://testphp.vulnweb.com/  
+第 7 章  
+链接 31：https://pypi.org/project/github3.py/  
+链接 32：https://docs.github.com/en/github/authenticating-to-github/  
+链接 33：https://www.pyinstaller.org/downloads.html  
+第 8 章  
+链接 34：https://pypi.org/project/pyWinhook/  
+链接 35：http://www.offensive-security.com/metasploit-unleashed/Generating_Payloads/  
+第 9 章  
+链接 36：http://pastebin.com/  
+第 10 章  
+链接 37：https://nostarch.com/black-hat-python2E/  
+链接 38：http://timgolden.me.uk/python/wmi/tutorial.html  
+链接 39：http://msdn.microsoft.com/  
+第 11 章  
+链接 40：https://git-scm.com/downloads/  
+链接 41：https://github.com/volatilityfoundation/volumetric/  
+链接 42：https://www.osforensics.com/tools/volatility-workbench.html/  
+链接 43：https://github.com/volatilityfoundation/volatility/wiki/Memory-Samples/  
