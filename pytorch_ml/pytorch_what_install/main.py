@@ -18,7 +18,7 @@ Pytorch简介与环境搭建:
 
     Pytorch环境搭建：
         Ubuntu18.x -> CUDA+cuDNN -> Python3+pip3(Anaconda) -> Pytorch
-        Ubuntu最好安装双系统(https://www.php.cn/linux-373791.html)，不要使用虚拟机
+        Ubuntu最好安装双系统，不要使用虚拟机
         如果有条件，尽量使用高配置台式机或高性能的笔记本(GTX1080Ti+16G内存，但是最好是台式机，笔记本玩深度学习本来就...)
         安装显卡驱动：去Tensorflow官网上看，教程很详细(nvidia-smi)
                     CUDA9.0 或 CUDA10.0 或 CUDA10.1

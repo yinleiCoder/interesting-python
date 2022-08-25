@@ -62,7 +62,7 @@ def findDuplicates(fileName):
     dups = []
     for k, v in trackNames.items():
         if v[1] > 1:
-            dups.append(v[1], k)
+            dups.append((v[1], k))
     # 保存重复的到文件中
     if len(dups) > 0:
         print(f"Found {len(dups)} duplicates. Track names saved to dup.txt.")
