@@ -7,27 +7,33 @@ import PyPDF2, os
     3. 除开第一页之外，将每个pdf的所有页面写入输出的文档
 PyPDF2: pip install PyPDF2
 """
-pdfFiles = []
-for filename in os.listdir('.'):
-    if filename.endswith('.pdf'):
-        pdfFiles.append(filename)
-pdfFiles.sort(key=str.lower)
-pdfWriter = PyPDF2.PdfFileWriter()
+# pdfFiles = []
+# for filename in os.listdir('.'):
+#     if filename.endswith('.pdf'):
+#         pdfFiles.append(filename)
+# pdfFiles.sort(key=str.lower)
+# pdfWriter = PyPDF2.PdfFileWriter()
+#
+# for filename in pdfFiles:
+#     with open(filename, 'rb') as pdfFileObj:
+#         pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+#         if pdfReader.isEncrypted:
+#             pdfReader.decrypt('yinlei')
+#         for pageNum in range(0, pdfReader.numPages):
+#             pageObj = pdfReader.getPage(pageNum)
+#             # print(pageObj.extractText())
+#             pdfWriter.addPage(pageObj)
+#
+# with open('all_combine_pdf.pdf', 'wb') as resultPdf:
+#     pdfWriter.write(resultPdf)
 
-for filename in pdfFiles:
-    with open(filename, 'rb') as pdfFileObj:
-        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-        if pdfReader.isEncrypted:
-            pdfReader.decrypt('yinlei')
-        for pageNum in range(0, pdfReader.numPages):
-            pageObj = pdfReader.getPage(pageNum)
-            # print(pageObj.extractText())
-            pdfWriter.addPage(pageObj)
-
-with open('all_combine_pdf.pdf', 'wb') as resultPdf:
-    pdfWriter.write(resultPdf)
-
-
+# 从公共基础PDF中提取连续几页出来
+merger = PyPDF2.PdfWriter()
+with open('mark.pdf', 'rb') as markObj:
+    merger.append(fileobj=markObj, pages=(44, 72))
+    with open('handled_mark.pdf', 'wb') as outputPdf:
+        merger.write(outputPdf)
+merger.close()
 
 # 旋转pdf页面
 # with open('油票.pdf', 'rb') as oilFile:

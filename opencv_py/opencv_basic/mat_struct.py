@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 """
-OpenCV的重要结构体Ma及其深浅拷贝:
+OpenCV的重要结构体Mat及其深浅拷贝:
 
 Mat: 就是一个矩阵，可以通过numpy对其以矩阵的方式进行访问
 

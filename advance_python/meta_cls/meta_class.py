@@ -12,6 +12,8 @@
     python中类的实例化过程：
     type去创建类对象(实例)。而元类中会首先去寻找metaclass属性，如果找到了
     就去调用metaclass去实例化类对象。
+
+    应用场景：ORM等
 """
 
 def create_class(name):

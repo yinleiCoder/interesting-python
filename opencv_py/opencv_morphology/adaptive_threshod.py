@@ -10,7 +10,7 @@ import numpy as np
     blockSize: 邻近区域的大小
     C: 常量，应从计算出的平均值或加权平均值中减去
     type: THRESH_BINARY、THRESH_BINARY_INV
-    THRESH_TRUNC、THRESH_TOZERO、THRESH_TOZERO_INV [不属于二值化范畴]
+    [THRESH_TRUNC、THRESH_TOZERO、THRESH_TOZERO_INV 不属于二值化范畴]
 """
 
 img = cv2.imread(r'E:\PycharmProjects\funnyPython\opencv_py\data\imgs\yinzihao.png')
